@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css" title="AppleStyle">
+        @import "WeatherStation.css";
+    </style>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/utilities.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/setup.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Text.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/InfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/GlassButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="WeatherStation.js" charset="utf-8"></script>
+	<script type="text/javascript" src="RemoteWeather.js" charset="utf-8"></script>
+
+
+<script type="text/javascript" src="Parts/Shape.js" charset="utf-8"></script>
+</head>
+<body onload="load();">
+    <div id="front">
+        <img id="frontImg" src="Images/front.png" alt="">
+        
+        
+        <div id="info"></div>
+        
+    
+    
+    
+    
+    <img src="Images/compass_without_arrows%201.png" id="compassFace">
+    
+    
+    
+    
+    
+    <canvas width="76" height="76" id="needleCanvas"></canvas>
+    <div apple-text-overflow="ellipsis" id="windSpeed"></div>
+    
+    <div id="roundedRectangleShape"></div>
+    <div apple-text-overflow="ellipsis" id="MPH"></div>
+    
+    
+    
+    
+    
+    
+    <div apple-text-overflow="ellipsis" id="outsideRelativeHumidityBox"></div>
+    <div apple-text-overflow="ellipsis" id="RH"></div>
+    
+    
+    
+    
+    
+    
+    <div id="roundedRectangleShape1"></div>
+    <div id="roundedRectangleShape2"></div>
+    <div apple-text-overflow="ellipsis" id="outsideTempBox"></div>
+    <div id="roundedRectangleShape7"></div>
+    <div id="roundedRectangleShape8"></div>
+    <div id="roundedRectangleShape9"></div>
+    <div id="roundedRectangleShape10"></div>
+    <div id="roundedRectangleShape11"></div>
+    <div apple-text-overflow="ellipsis" id="insideTempBox"></div>
+    <div apple-text-overflow="ellipsis" id="insideRelativeHumidityBox"></div>
+    <div apple-text-overflow="ellipsis" id="RH1"></div>
+    
+    
+    <img src="Images/degree%201.png" id="img">
+    <img src="Images/degree%201.png" id="img1">
+    <div apple-text-overflow="ellipsis" id="INSIDE"></div>
+    
+    <img src="Images/outside%201.png" id="img3">
+    <img src="Images/inside%201.png" id="img4">
+    </div>
+    <div id="back" style="display: none; ">
+       <img id="backImg" src="Images/back.png" alt="">
+        <img src="Images/DevelopedWith.png" alt="Created with Dashcode" id="backDevelopedWith">
+        <div id="done"></div>
+    </div>
+
+</body>
+</html>
